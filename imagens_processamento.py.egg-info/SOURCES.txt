@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+imagens_processamento.py.egg-info/PKG-INFO
+imagens_processamento.py.egg-info/SOURCES.txt
+imagens_processamento.py.egg-info/dependency_links.txt
+imagens_processamento.py.egg-info/top_level.txt

@@ -1,0 +1,45 @@
+Metadata-Version: 2.4
+Name: imagens_processamento.py
+Version: 0.0.1
+Summary: Um pacote simples para processamento de imagens.
+Home-page: https://github.com/0joaogabriel1/imagens_processamento.py
+Author: Joao Gabriel Oliveira Carvalho
+Author-email: jotagesurf@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+Dynamic: summary
+
+# Meu Pacote de Processamento de Imagens
+
+Este Ã© um pacote simples para demonstraÃ§Ã£o de criaÃ§Ã£o de pacotes Python, focado em operaÃ§Ãµes bÃ¡sicas de imagem.
+
+## InstalaÃ§Ã£o
+
+Use o gerenciador de pacotes pip para instalar o pacote:
+
+```bash
+pip install imagens_processamento.py
+
+
+## Uso
+from imagens_processamento.py.main import abrir_imagem, converter_para_tons_de_cinza, salvar_imagem
+
+# Exemplo de uso
+img_original = abrir_imagem("caminho/para/sua/imagem.jpg")
+if img_original:
+    img_cinza = converter_para_tons_de_cinza(img_original)
+    salvar_imagem(img_cinza, "caminho/para/sua/imagem_cinza.jpg")
+
+ ## Autor
+ # Joao Gabriel O. Carvalho   
+
+# LicenÃ§a
+# MIT
